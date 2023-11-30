@@ -65,8 +65,13 @@ From https://capitalbikeshare.com/system-data /  data_bike_sharing.csv file, and
 - DDOT updated its plan for the District’s portion of the Capital Bikeshare system in 2020. This plan was drafted to create goals for the program, describe measures that track progress toward goal achievement, analyze how well the system is performing, generate system expansion scenarios and financial forecasts for the near term, and recommend an expansion strategy for the next six years that best meets the goals and addresses system performance gaps. 
 
 
-# NOTE
+# **NOTE**
 
 To FIND **CNT** we need to combine 2 model, 1 for casual and 1 for registered.<br>
 
 So, `Y_prediction_cnt` = y_prediction_casual + y_prediction_registered
+
+ALSO model is to large to upload, so we compressing it. So we need to unzip first to use the model.
+
+- model_registered-stackreg_BikeSharing.sav.zip
+- model_casual-stackreg_BikeSharing.sav.zip
